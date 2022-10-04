@@ -25,6 +25,8 @@
 
     private HubConnection? hubConnection;
 
+    private Guid userId = Guid.NewGuid();
+
     protected override async Task OnInitializedAsync()
     {
         hubConnection = new HubConnectionBuilder()
@@ -34,6 +36,7 @@
         hubConnection.On("StartBuzzer", () =>
         {
             buzzerState.IsBuzzerOn = true;
+            buzzerState.userID = Guid.Empty;
             buzzerStatut = "";
             BuzzClosed = false;
 
@@ -43,7 +46,8 @@
         hubConnection.On("StopBuzzer", () =>
         {
             buzzerState.IsBuzzerOn = false;
-            buzzerStatut = "Perdu...";
+            if(buzzerState.userID == userId) buzzerStatut="Bravo, gagné !";
+            else buzzerStatut = "Perdu...";
             BuzzClosed = true;
             InvokeAsync(StateHasChanged);
         });
@@ -58,16 +62,16 @@
         if (buzzerState.IsBuzzerOn)
         {
             buzzerState.IsBuzzerOn = false;
+            buzzerState.userID = userId;
 
             if (hubConnection is not null)
             {
                 await hubConnection.SendAsync("StopBuzzer");
             }
-
-            buzzerStatut = "Gagné !";
         }
-        else
-            buzzerStatut = "Perdu !";
+
+        await InvokeAsync(StateHasChanged);
+
     }
 
     protected async void OnStartBuzzerClick()
