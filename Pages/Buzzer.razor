@@ -1,0 +1,96 @@
+@page "/buzzer"
+
+@using Microsoft.AspNetCore.SignalR.Client
+@inject NavigationManager NavigationManager
+@implements IAsyncDisposable
+
+@inject Data.BuzzerState buzzerState;
+
+<PageTitle>Buzzer</PageTitle>
+
+<h1>Activité Buzzer</h1>
+<button class="btn btn-primary" disabled=@BuzzClosed @onclick="OnBuzzerClick">Buzz</button>
+<h3>@buzzerStatut</h3>
+
+<div>
+    <button @onclick="OnStartBuzzerClick">Start buzz</button>
+    <button @onclick="OnStopBuzzerClick">Stop buzz</button>
+</div>
+
+@code {
+
+    protected bool BuzzClosed = true;
+
+    protected string buzzerStatut = "";
+
+    private HubConnection? hubConnection;
+
+    protected override async Task OnInitializedAsync()
+    {
+        hubConnection = new HubConnectionBuilder()
+        .WithUrl(NavigationManager.ToAbsoluteUri("/buzzerhub"))
+        .Build();
+
+        hubConnection.On("StartBuzzer", () =>
+        {
+            buzzerState.IsBuzzerOn = true;
+            buzzerStatut = "";
+            BuzzClosed = false;
+
+            InvokeAsync(StateHasChanged);
+        });
+
+        hubConnection.On("StopBuzzer", () =>
+        {
+            buzzerState.IsBuzzerOn = false;
+            buzzerStatut = "Perdu...";
+            BuzzClosed = true;
+            InvokeAsync(StateHasChanged);
+        });
+
+        await hubConnection.StartAsync();
+    }
+
+    protected async void OnBuzzerClick()
+    {
+        System.Console.WriteLine("Buzzer click");
+
+        if (buzzerState.IsBuzzerOn)
+        {
+            buzzerState.IsBuzzerOn = false;
+
+            if (hubConnection is not null)
+            {
+                await hubConnection.SendAsync("StopBuzzer");
+            }
+
+            buzzerStatut = "Gagné !";
+        }
+        else
+            buzzerStatut = "Perdu !";
+    }
+
+    protected async void OnStartBuzzerClick()
+    {
+        if (hubConnection is not null)
+        {
+            await hubConnection.SendAsync("StartBuzzer");
+        }
+    }
+
+    protected async void OnStopBuzzerClick()
+    {
+        if (hubConnection is not null)
+        {
+            await hubConnection.SendAsync("StopBuzzer");
+        }
+    }
+
+    public async ValueTask DisposeAsync()
+    {
+        if (hubConnection is not null)
+        {
+            await hubConnection.DisposeAsync();
+        }
+    }
+}

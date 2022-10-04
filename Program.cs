@@ -3,7 +3,7 @@ using Microsoft.AspNetCore.Components.Web;
 using BlazorSeverSignalRApp.Data;
 
 using Microsoft.AspNetCore.ResponseCompression;
-using BlazorServerSignalRApp.Server.Hubs;
+using BlazorServerSignalRApp.Hubs;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -11,6 +11,8 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddRazorPages();
 builder.Services.AddServerSideBlazor();
 builder.Services.AddSingleton<WeatherForecastService>();
+builder.Services.AddSingleton<BuzzerState>();
+
 
 builder.Services.AddResponseCompression(opts =>
 {
@@ -38,6 +40,7 @@ app.UseRouting();
 
 app.MapBlazorHub();
 app.MapHub<ChatHub>("/chathub");
+app.MapHub<BuzzerHub>("/buzzerhub");
 app.MapFallbackToPage("/_Host");
 
 app.Run();
