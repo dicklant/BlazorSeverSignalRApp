@@ -1,0 +1,17 @@
+C:\Users\dickl\Documents\vscode\blazor\BlazorSeverSignalRApp\bin\Debug\net6.0\publish\BlazorSeverSignalRApp.exe
+C:\Users\dickl\Documents\vscode\blazor\BlazorSeverSignalRApp\bin\Debug\net6.0\publish\appsettings.Development.json
+C:\Users\dickl\Documents\vscode\blazor\BlazorSeverSignalRApp\bin\Debug\net6.0\publish\appsettings.json
+C:\Users\dickl\Documents\vscode\blazor\BlazorSeverSignalRApp\bin\Debug\net6.0\publish\BlazorSeverSignalRApp.dll
+C:\Users\dickl\Documents\vscode\blazor\BlazorSeverSignalRApp\bin\Debug\net6.0\publish\BlazorSeverSignalRApp.deps.json
+C:\Users\dickl\Documents\vscode\blazor\BlazorSeverSignalRApp\bin\Debug\net6.0\publish\BlazorSeverSignalRApp.runtimeconfig.json
+C:\Users\dickl\Documents\vscode\blazor\BlazorSeverSignalRApp\bin\Debug\net6.0\publish\BlazorSeverSignalRApp.pdb
+C:\Users\dickl\Documents\vscode\blazor\BlazorSeverSignalRApp\bin\Debug\net6.0\publish\Microsoft.AspNetCore.Connections.Abstractions.dll
+C:\Users\dickl\Documents\vscode\blazor\BlazorSeverSignalRApp\bin\Debug\net6.0\publish\Microsoft.AspNetCore.Http.Connections.Client.dll
+C:\Users\dickl\Documents\vscode\blazor\BlazorSeverSignalRApp\bin\Debug\net6.0\publish\Microsoft.AspNetCore.Http.Connections.Common.dll
+C:\Users\dickl\Documents\vscode\blazor\BlazorSeverSignalRApp\bin\Debug\net6.0\publish\Microsoft.AspNetCore.SignalR.Client.dll
+C:\Users\dickl\Documents\vscode\blazor\BlazorSeverSignalRApp\bin\Debug\net6.0\publish\Microsoft.AspNetCore.SignalR.Client.Core.dll
+C:\Users\dickl\Documents\vscode\blazor\BlazorSeverSignalRApp\bin\Debug\net6.0\publish\Microsoft.AspNetCore.SignalR.Common.dll
+C:\Users\dickl\Documents\vscode\blazor\BlazorSeverSignalRApp\bin\Debug\net6.0\publish\Microsoft.AspNetCore.SignalR.Protocols.Json.dll
+C:\Users\dickl\Documents\vscode\blazor\BlazorSeverSignalRApp\bin\Debug\net6.0\publish\Microsoft.Extensions.Features.dll
+C:\Users\dickl\Documents\vscode\blazor\BlazorSeverSignalRApp\bin\Debug\net6.0\publish\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\dickl\Documents\vscode\blazor\BlazorSeverSignalRApp\bin\Debug\net6.0\publish\System.IO.Pipelines.dll
