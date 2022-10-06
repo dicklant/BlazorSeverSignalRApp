@@ -1,18 +1,20 @@
 ﻿@page "/counter"
+@inject Data.CounterState counterState
+
 
 <PageTitle>Counter</PageTitle>
 
-<h1>Counter</h1>
+<h1>Counter Persistent</h1>
 
-<p role="status">Current count: @currentCount</p>
+<p role="status">Current count: @counterState.Counter</p>
 
 <button class="btn btn-primary" @onclick="IncrementCount">Click me</button>
 
 @code {
-    private int currentCount = 0;
+    //private int currentCount = 0;
 
     private void IncrementCount()
     {
-        currentCount++;
+        counterState.Counter++;
     }
 }
