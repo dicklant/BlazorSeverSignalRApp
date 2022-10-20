@@ -2,6 +2,133 @@
   "version": 3,
   "targets": {
     "net6.0": {
+      "Blazorade.Core/3.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.AspNetCore.Components": "6.0.2",
+          "Microsoft.AspNetCore.Components.Web": "6.0.2"
+        },
+        "compile": {
+          "lib/net6.0/Blazorade.Core.dll": {}
+        },
+        "runtime": {
+          "lib/net6.0/Blazorade.Core.dll": {}
+        },
+        "contentFiles": {
+          "contentFiles/any/net6.0/Blazorade-Icon-128.png": {
+            "buildAction": "Content",
+            "codeLanguage": "any",
+            "copyToOutput": false
+          }
+        },
+        "build": {
+          "buildTransitive/Blazorade.Core.props": {}
+        },
+        "buildMultiTargeting": {
+          "buildMultiTargeting/Blazorade.Core.props": {}
+        }
+      },
+      "Blazorade.Msal/1.1.0": {
+        "type": "package",
+        "dependencies": {
+          "Blazorade.Core": "2.0.1",
+          "Microsoft.AspNetCore.Components.Web": "5.0.2"
+        },
+        "compile": {
+          "lib/net5.0/Blazorade.Msal.dll": {}
+        },
+        "runtime": {
+          "lib/net5.0/Blazorade.Msal.dll": {}
+        },
+        "build": {
+          "buildTransitive/Blazorade.Msal.props": {}
+        },
+        "buildMultiTargeting": {
+          "buildMultiTargeting/Blazorade.Msal.props": {}
+        }
+      },
+      "Blazorade.Teams/1.0.0-rc-06": {
+        "type": "package",
+        "dependencies": {
+          "Blazorade.Core": "2.0.1",
+          "Blazorade.Msal": "1.1.0",
+          "Microsoft.AspNetCore.Components": "5.0.2",
+          "Microsoft.AspNetCore.Components.Web": "5.0.2"
+        },
+        "compile": {
+          "lib/net5.0/Blazorade.Teams.dll": {}
+        },
+        "runtime": {
+          "lib/net5.0/Blazorade.Teams.dll": {}
+        },
+        "build": {
+          "buildTransitive/Blazorade.Teams.props": {}
+        },
+        "buildMultiTargeting": {
+          "buildMultiTargeting/Blazorade.Teams.props": {}
+        }
+      },
+      "Microsoft.AspNetCore.Authorization/6.0.2": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.AspNetCore.Metadata": "6.0.2",
+          "Microsoft.Extensions.Logging.Abstractions": "6.0.0",
+          "Microsoft.Extensions.Options": "6.0.0"
+        },
+        "compile": {
+          "lib/net6.0/Microsoft.AspNetCore.Authorization.dll": {}
+        },
+        "runtime": {
+          "lib/net6.0/Microsoft.AspNetCore.Authorization.dll": {}
+        }
+      },
+      "Microsoft.AspNetCore.Components/6.0.2": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.AspNetCore.Authorization": "6.0.2",
+          "Microsoft.AspNetCore.Components.Analyzers": "6.0.2"
+        },
+        "compile": {
+          "lib/net6.0/Microsoft.AspNetCore.Components.dll": {}
+        },
+        "runtime": {
+          "lib/net6.0/Microsoft.AspNetCore.Components.dll": {}
+        }
+      },
+      "Microsoft.AspNetCore.Components.Analyzers/6.0.2": {
+        "type": "package",
+        "build": {
+          "buildTransitive/netstandard2.0/Microsoft.AspNetCore.Components.Analyzers.targets": {}
+        }
+      },
+      "Microsoft.AspNetCore.Components.Forms/6.0.2": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.AspNetCore.Components": "6.0.2"
+        },
+        "compile": {
+          "lib/net6.0/Microsoft.AspNetCore.Components.Forms.dll": {}
+        },
+        "runtime": {
+          "lib/net6.0/Microsoft.AspNetCore.Components.Forms.dll": {}
+        }
+      },
+      "Microsoft.AspNetCore.Components.Web/6.0.2": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.AspNetCore.Components": "6.0.2",
+          "Microsoft.AspNetCore.Components.Forms": "6.0.2",
+          "Microsoft.Extensions.DependencyInjection": "6.0.0",
+          "Microsoft.JSInterop": "6.0.2",
+          "System.IO.Pipelines": "6.0.2"
+        },
+        "compile": {
+          "lib/net6.0/Microsoft.AspNetCore.Components.Web.dll": {}
+        },
+        "runtime": {
+          "lib/net6.0/Microsoft.AspNetCore.Components.Web.dll": {}
+        }
+      },
       "Microsoft.AspNetCore.Connections.Abstractions/6.0.9": {
         "type": "package",
         "dependencies": {
@@ -39,6 +166,15 @@
         },
         "runtime": {
           "lib/net6.0/Microsoft.AspNetCore.Http.Connections.Common.dll": {}
+        }
+      },
+      "Microsoft.AspNetCore.Metadata/6.0.2": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/Microsoft.AspNetCore.Metadata.dll": {}
+        },
+        "runtime": {
+          "lib/net6.0/Microsoft.AspNetCore.Metadata.dll": {}
         }
       },
       "Microsoft.AspNetCore.SignalR.Client/6.0.9": {
@@ -188,6 +324,15 @@
           "buildTransitive/netcoreapp3.1/_._": {}
         }
       },
+      "Microsoft.JSInterop/6.0.2": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/Microsoft.JSInterop.dll": {}
+        },
+        "runtime": {
+          "lib/net6.0/Microsoft.JSInterop.dll": {}
+        }
+      },
       "System.Diagnostics.DiagnosticSource/6.0.0": {
         "type": "package",
         "dependencies": {
@@ -242,6 +387,147 @@
     }
   },
   "libraries": {
+    "Blazorade.Core/3.0.0": {
+      "sha512": "ozZ00+wzBiRMSjbQgjx/Nro0JRLSanOZHeBT1bMdBzGOgpVMQMg5/jvaZ8eNu6maFNkU1Vh8jiBYPHsiKS0PWQ==",
+      "type": "package",
+      "path": "blazorade.core/3.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Blazorade-Icon-128.png",
+        "blazorade.core.3.0.0.nupkg.sha512",
+        "blazorade.core.nuspec",
+        "build/Blazorade.Core.props",
+        "build/Microsoft.AspNetCore.StaticWebAssets.props",
+        "buildMultiTargeting/Blazorade.Core.props",
+        "buildTransitive/Blazorade.Core.props",
+        "content/Blazorade-Icon-128.png",
+        "contentFiles/any/net6.0/Blazorade-Icon-128.png",
+        "lib/net6.0/Blazorade.Core.dll",
+        "lib/net6.0/Blazorade.Core.xml",
+        "readme.md",
+        "staticwebassets/js/blazoradeCore.js"
+      ]
+    },
+    "Blazorade.Msal/1.1.0": {
+      "sha512": "GSzbq/vrRIQoNbAC0oTFQKfZPcJShfdwULSlegXTscFNgAyGx33UIK6rg0lPg3hOCP2qY+nd5Lg5/9FWHxZpzA==",
+      "type": "package",
+      "path": "blazorade.msal/1.1.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Blazorade-Icon-128.png",
+        "blazorade.msal.1.1.0.nupkg.sha512",
+        "blazorade.msal.nuspec",
+        "build/Blazorade.Msal.props",
+        "build/Microsoft.AspNetCore.StaticWebAssets.props",
+        "buildMultiTargeting/Blazorade.Msal.props",
+        "buildTransitive/Blazorade.Msal.props",
+        "lib/net5.0/Blazorade.Msal.dll",
+        "staticwebassets/Blazorade-Icon-128.png",
+        "staticwebassets/js/blazoradeMsal.js"
+      ]
+    },
+    "Blazorade.Teams/1.0.0-rc-06": {
+      "sha512": "wmv5YKTtQBW2Q+86CSHUjK8Ytq49eb6yTLZkHOJb9V8RO0P4TEoNLnT6xLBYn9ynmq+nkTdvV0p6U7BnU1ngOg==",
+      "type": "package",
+      "path": "blazorade.teams/1.0.0-rc-06",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Blazorade-Icon-128.png",
+        "blazorade.teams.1.0.0-rc-06.nupkg.sha512",
+        "blazorade.teams.nuspec",
+        "build/Blazorade.Teams.props",
+        "build/Microsoft.AspNetCore.StaticWebAssets.props",
+        "buildMultiTargeting/Blazorade.Teams.props",
+        "buildTransitive/Blazorade.Teams.props",
+        "lib/net5.0/Blazorade.Teams.dll",
+        "lib/net5.0/Blazorade.Teams.xml",
+        "staticwebassets/Blazorade-Icon-128.png",
+        "staticwebassets/js/blazoradeTeams.js"
+      ]
+    },
+    "Microsoft.AspNetCore.Authorization/6.0.2": {
+      "sha512": "AjwO1PjN75weiC0KzznybEZh5rr+VjH3c2wvuRT6Qmd8cv2+/6hBn/peelGkZUzYBY0l7QA22jwmjKKeeNYsIQ==",
+      "type": "package",
+      "path": "microsoft.aspnetcore.authorization/6.0.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/net461/Microsoft.AspNetCore.Authorization.dll",
+        "lib/net461/Microsoft.AspNetCore.Authorization.xml",
+        "lib/net6.0/Microsoft.AspNetCore.Authorization.dll",
+        "lib/net6.0/Microsoft.AspNetCore.Authorization.xml",
+        "lib/netstandard2.0/Microsoft.AspNetCore.Authorization.dll",
+        "lib/netstandard2.0/Microsoft.AspNetCore.Authorization.xml",
+        "microsoft.aspnetcore.authorization.6.0.2.nupkg.sha512",
+        "microsoft.aspnetcore.authorization.nuspec"
+      ]
+    },
+    "Microsoft.AspNetCore.Components/6.0.2": {
+      "sha512": "UXojpKtmaJkGRUzGgGY2LcmAqWaubEJ0ewEm/wmchn89hQPuqMG/Zm+Matl1pSMCDIbxuGegYzUs9zIqbS1VNA==",
+      "type": "package",
+      "path": "microsoft.aspnetcore.components/6.0.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "THIRD-PARTY-NOTICES.txt",
+        "lib/net6.0/Microsoft.AspNetCore.Components.dll",
+        "lib/net6.0/Microsoft.AspNetCore.Components.xml",
+        "microsoft.aspnetcore.components.6.0.2.nupkg.sha512",
+        "microsoft.aspnetcore.components.nuspec"
+      ]
+    },
+    "Microsoft.AspNetCore.Components.Analyzers/6.0.2": {
+      "sha512": "jHMdjIrlqm1T6BqBzCpuMAdj1mSpmcEF0wNXIKh7xS6jKAdKOy8aWKTbFI022dW8ZgjC4UNpp9UTuMDVu9/T/w==",
+      "type": "package",
+      "path": "microsoft.aspnetcore.components.analyzers/6.0.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "THIRD-PARTY-NOTICES.txt",
+        "analyzers/dotnet/cs/Microsoft.AspNetCore.Components.Analyzers.dll",
+        "build/netstandard2.0/Microsoft.AspNetCore.Components.Analyzers.targets",
+        "buildTransitive/netstandard2.0/Microsoft.AspNetCore.Components.Analyzers.targets",
+        "microsoft.aspnetcore.components.analyzers.6.0.2.nupkg.sha512",
+        "microsoft.aspnetcore.components.analyzers.nuspec"
+      ]
+    },
+    "Microsoft.AspNetCore.Components.Forms/6.0.2": {
+      "sha512": "8cABkvHPvBhwMVzOl3ZzVPafDk/ZcUoCA8I7a9jcndpFYNztqtN6IP7i1KSJYk4EYG5nSEf3v1d4F6ufmTKwSA==",
+      "type": "package",
+      "path": "microsoft.aspnetcore.components.forms/6.0.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "THIRD-PARTY-NOTICES.txt",
+        "lib/net6.0/Microsoft.AspNetCore.Components.Forms.dll",
+        "lib/net6.0/Microsoft.AspNetCore.Components.Forms.xml",
+        "microsoft.aspnetcore.components.forms.6.0.2.nupkg.sha512",
+        "microsoft.aspnetcore.components.forms.nuspec"
+      ]
+    },
+    "Microsoft.AspNetCore.Components.Web/6.0.2": {
+      "sha512": "xtQB9yaO7Yki9qHWx48Xuk1/t3cGeOtog+ObSn64rK7knLICd9NpKZa5cw/0ttqzxCo0QHwtk/KAhY9qu4RX7w==",
+      "type": "package",
+      "path": "microsoft.aspnetcore.components.web/6.0.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "THIRD-PARTY-NOTICES.txt",
+        "lib/net6.0/Microsoft.AspNetCore.Components.Web.dll",
+        "lib/net6.0/Microsoft.AspNetCore.Components.Web.xml",
+        "microsoft.aspnetcore.components.web.6.0.2.nupkg.sha512",
+        "microsoft.aspnetcore.components.web.nuspec"
+      ]
+    },
     "Microsoft.AspNetCore.Connections.Abstractions/6.0.9": {
       "sha512": "45fg/Le6B0ErVDU2KIIdvO+NVcweHbywIyyCOz4NOFZMJ1NOznOuW2dSYGb8D4FI2GNlEk7/Za0351wMZqhNYw==",
       "type": "package",
@@ -301,6 +587,25 @@
         "lib/netstandard2.0/Microsoft.AspNetCore.Http.Connections.Common.xml",
         "microsoft.aspnetcore.http.connections.common.6.0.9.nupkg.sha512",
         "microsoft.aspnetcore.http.connections.common.nuspec"
+      ]
+    },
+    "Microsoft.AspNetCore.Metadata/6.0.2": {
+      "sha512": "SE6xWyaY2n9LsfwNwppyqwVIRtS1RcYPaIFoqyTi8HA6l2Zze40lIvdTSTtDQC+EZpdDRmQY3CPQi9ZlCqOwTg==",
+      "type": "package",
+      "path": "microsoft.aspnetcore.metadata/6.0.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/net461/Microsoft.AspNetCore.Metadata.dll",
+        "lib/net461/Microsoft.AspNetCore.Metadata.xml",
+        "lib/net6.0/Microsoft.AspNetCore.Metadata.dll",
+        "lib/net6.0/Microsoft.AspNetCore.Metadata.xml",
+        "lib/netstandard2.0/Microsoft.AspNetCore.Metadata.dll",
+        "lib/netstandard2.0/Microsoft.AspNetCore.Metadata.xml",
+        "microsoft.aspnetcore.metadata.6.0.2.nupkg.sha512",
+        "microsoft.aspnetcore.metadata.nuspec"
       ]
     },
     "Microsoft.AspNetCore.SignalR.Client/6.0.9": {
@@ -569,6 +874,21 @@
         "useSharedDesignerContext.txt"
       ]
     },
+    "Microsoft.JSInterop/6.0.2": {
+      "sha512": "0Fg5C5U+XNS5Mb5jYojUGaCDjQqV5IuzyETXt+9NA0QXRgedbm0uYjNpjbIOcOroPSIgo1E3VIg0EDNtE2CuYQ==",
+      "type": "package",
+      "path": "microsoft.jsinterop/6.0.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/net6.0/Microsoft.JSInterop.dll",
+        "lib/net6.0/Microsoft.JSInterop.xml",
+        "microsoft.jsinterop.6.0.2.nupkg.sha512",
+        "microsoft.jsinterop.nuspec"
+      ]
+    },
     "System.Diagnostics.DiagnosticSource/6.0.0": {
       "sha512": "frQDfv0rl209cKm1lnwTgFPzNigy2EKk1BS3uAvHvlBVKe5cymGyHO+Sj+NLv5VF/AhHsqPIUUwya5oV4CHMUw==",
       "type": "package",
@@ -674,6 +994,8 @@
   },
   "projectFileDependencyGroups": {
     "net6.0": [
+      "Blazorade.Core >= 3.0.0",
+      "Blazorade.Teams >= 1.0.0-rc-06",
       "Microsoft.AspNetCore.SignalR.Client >= 6.0.9"
     ]
   },
@@ -714,6 +1036,14 @@
       "net6.0": {
         "targetAlias": "net6.0",
         "dependencies": {
+          "Blazorade.Core": {
+            "target": "Package",
+            "version": "[3.0.0, )"
+          },
+          "Blazorade.Teams": {
+            "target": "Package",
+            "version": "[1.0.0-rc-06, )"
+          },
           "Microsoft.AspNetCore.SignalR.Client": {
             "target": "Package",
             "version": "[6.0.9, )"
