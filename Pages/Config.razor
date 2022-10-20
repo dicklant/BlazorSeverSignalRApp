@@ -4,7 +4,6 @@
 
 <h1>Config page</h1>
 
-
 <TeamsApplication RequireAuthentication="false">
     <ApplicationTemplate>
         @{ this.Context = context; }
@@ -26,11 +25,30 @@
     public async Task SavingAsync(Dictionary<string, object> data)
     {
         // Code removed for clarity...
+        
     }
 
     private bool isValid;
-    private void TabNameChangedAsync(ChangeEventArgs e)
+    private async Task TabNameChangedAsync(ChangeEventArgs e)
     {
-        // Code removed for clarity...
+        var name = e.Value as string;
+        bool valid = name?.Length > 0;
+        if(valid != isValid)
+        {
+            isValid = valid;
+            await this.Context.TeamsInterop.Settings.SetValidityStateAsync(isValid);
+        }
+
+        if (isValid)
+        {
+            var settings = new Settings
+            {
+                ContentUrl = this.NavMan.ToAbsoluteUri("/tabapp").ToString(),
+                RemoveUrl = this.NavMan.ToAbsoluteUri("/tabremove").ToString(),
+                SuggestedDisplayName = name,
+                EntityId = "com.blazorade.teams.demo.tabapp"
+            };
+            await this.Context.TeamsInterop.Settings.RegisterOnSaveHandlerAsync(settings, this.SavingAsync);
+        }      
     }
 }
