@@ -1,7 +1,36 @@
 @page "/config"
 
-<PageTitle>Config MS Teams</PageTitle>
+<PageTitle>MS Teams config</PageTitle>
 
-<h1>Page de config MS Teams</h1>
+<h1>Config page</h1>
 
-<p>bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla </p>
+
+<TeamsApplication RequireAuthentication="false">
+    <ApplicationTemplate>
+        @{ this.Context = context; }
+
+        <label for="tab-name">Tab Name</label>
+        <div>
+            <input id="tab-name" type="text" @onchange="this.TabNameChangedAsync" />
+        </div>
+    </ApplicationTemplate>
+</TeamsApplication>
+
+@code{
+    ApplicationContext Context;
+
+    [Inject]
+    NavigationManager NavMan { get; set; }
+
+    [JSInvokable]
+    public async Task SavingAsync(Dictionary<string, object> data)
+    {
+        // Code removed for clarity...
+    }
+
+    private bool isValid;
+    private void TabNameChangedAsync(ChangeEventArgs e)
+    {
+        // Code removed for clarity...
+    }
+}

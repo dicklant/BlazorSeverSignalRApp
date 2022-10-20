@@ -13,6 +13,8 @@ builder.Services.AddServerSideBlazor();
 builder.Services.AddSingleton<WeatherForecastService>();
 builder.Services.AddSingleton<BuzzerState>();
 builder.Services.AddSingleton<CounterState>();
+builder.Services.AddBlazoradeTeams();
+
 
 
 builder.Services.AddResponseCompression(opts =>
