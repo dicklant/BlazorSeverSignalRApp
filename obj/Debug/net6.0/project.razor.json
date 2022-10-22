@@ -12,39 +12,6 @@
   "ProjectWorkspaceState": {
     "TagHelpers": [
       {
-        "HashCode": 1515155627,
-        "Kind": "Components.Component",
-        "Name": "BlazorSeverSignalRApp.Pages.Buzzer",
-        "AssemblyName": "BlazorSeverSignalRApp",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "Buzzer"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "BlazorSeverSignalRApp.Pages.Buzzer"
-        }
-      },
-      {
-        "HashCode": 411989654,
-        "Kind": "Components.Component",
-        "Name": "BlazorSeverSignalRApp.Pages.Buzzer",
-        "AssemblyName": "BlazorSeverSignalRApp",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "BlazorSeverSignalRApp.Pages.Buzzer"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "BlazorSeverSignalRApp.Pages.Buzzer",
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
-        }
-      },
-      {
         "HashCode": -1399056202,
         "Kind": "Components.Component",
         "Name": "BlazorSeverSignalRApp.Pages.Counter",
@@ -177,35 +144,68 @@
         }
       },
       {
-        "HashCode": -476541634,
+        "HashCode": 1515155627,
         "Kind": "Components.Component",
-        "Name": "BlazorSeverSignalRApp.Pages.tablemove",
+        "Name": "BlazorSeverSignalRApp.Pages.Buzzer",
         "AssemblyName": "BlazorSeverSignalRApp",
         "CaseSensitive": true,
         "TagMatchingRules": [
           {
-            "TagName": "tablemove"
+            "TagName": "Buzzer"
           }
         ],
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "BlazorSeverSignalRApp.Pages.tablemove"
+          "Common.TypeName": "BlazorSeverSignalRApp.Pages.Buzzer"
         }
       },
       {
-        "HashCode": 424852453,
+        "HashCode": 411989654,
         "Kind": "Components.Component",
-        "Name": "BlazorSeverSignalRApp.Pages.tablemove",
+        "Name": "BlazorSeverSignalRApp.Pages.Buzzer",
         "AssemblyName": "BlazorSeverSignalRApp",
         "CaseSensitive": true,
         "TagMatchingRules": [
           {
-            "TagName": "BlazorSeverSignalRApp.Pages.tablemove"
+            "TagName": "BlazorSeverSignalRApp.Pages.Buzzer"
           }
         ],
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "BlazorSeverSignalRApp.Pages.tablemove",
+          "Common.TypeName": "BlazorSeverSignalRApp.Pages.Buzzer",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
+        "HashCode": -1804731920,
+        "Kind": "Components.Component",
+        "Name": "BlazorSeverSignalRApp.Pages.tabremove",
+        "AssemblyName": "BlazorSeverSignalRApp",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "tabremove"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "BlazorSeverSignalRApp.Pages.tabremove"
+        }
+      },
+      {
+        "HashCode": 2098440034,
+        "Kind": "Components.Component",
+        "Name": "BlazorSeverSignalRApp.Pages.tabremove",
+        "AssemblyName": "BlazorSeverSignalRApp",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "BlazorSeverSignalRApp.Pages.tabremove"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "BlazorSeverSignalRApp.Pages.tabremove",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch"
         }
       },
@@ -18042,6 +18042,11 @@
       "FileKind": "componentImport"
     },
     {
+      "FilePath": "c:\\Users\\dickl\\Documents\\vscode\\blazor\\BlazorSeverSignalRApp\\Pages\\tabremove.razor",
+      "TargetPath": "Pages\\tabremove.razor",
+      "FileKind": "component"
+    },
+    {
       "FilePath": "c:\\Users\\dickl\\Documents\\vscode\\blazor\\BlazorSeverSignalRApp\\App.razor",
       "TargetPath": "App.razor",
       "FileKind": "component"
@@ -18084,11 +18089,6 @@
     {
       "FilePath": "c:\\Users\\dickl\\Documents\\vscode\\blazor\\BlazorSeverSignalRApp\\Pages\\Quiz.razor",
       "TargetPath": "Pages\\Quiz.razor",
-      "FileKind": "component"
-    },
-    {
-      "FilePath": "c:\\Users\\dickl\\Documents\\vscode\\blazor\\BlazorSeverSignalRApp\\Pages\\tablemove.razor",
-      "TargetPath": "Pages\\tablemove.razor",
       "FileKind": "component"
     },
     {
