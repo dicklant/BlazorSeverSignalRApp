@@ -1,0 +1,29 @@
+@page "/tabremove"
+
+@code {
+    ApplicationContext Context;
+
+    [JSInvokable]
+    public async Task RemovingAsync(Dictionary<string, object> data)
+    {
+        // This method is called by Blazorade Teams when the user has clicked the Remove button,
+        // but before Teams has removed the tab.
+        // Here you can do whatever actions you need to do to get your application removed, like
+        // removing settings or data storage, for instance.
+    }
+
+}
+<TeamsApplication RequireAuthentication="false">
+    <ApplicationTemplate>
+        @{
+            this.Context = context;
+            this.Context.TeamsInterop.Settings
+                .RegisterOnRemoveHandlerAsync(this.RemovingAsync);
+            this.Context.TeamsInterop.Settings
+                .SetValidityStateAsync(true);
+        }
+        <p>
+            If you click the Remove button below, this application will be removed.
+        </p>
+    </ApplicationTemplate>
+</TeamsApplication> 
