@@ -45,39 +45,6 @@
         }
       },
       {
-        "HashCode": -2079765528,
-        "Kind": "Components.Component",
-        "Name": "BlazorSeverSignalRApp.Pages.Quiz",
-        "AssemblyName": "BlazorSeverSignalRApp",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "Quiz"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "BlazorSeverSignalRApp.Pages.Quiz"
-        }
-      },
-      {
-        "HashCode": 1130292591,
-        "Kind": "Components.Component",
-        "Name": "BlazorSeverSignalRApp.Pages.Quiz",
-        "AssemblyName": "BlazorSeverSignalRApp",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "BlazorSeverSignalRApp.Pages.Quiz"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "BlazorSeverSignalRApp.Pages.Quiz",
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
-        }
-      },
-      {
         "HashCode": -631137062,
         "Kind": "Components.Component",
         "Name": "BlazorSeverSignalRApp.Pages.Index",
@@ -107,39 +74,6 @@
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
           "Common.TypeName": "BlazorSeverSignalRApp.Pages.Index",
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
-        }
-      },
-      {
-        "HashCode": 450995235,
-        "Kind": "Components.Component",
-        "Name": "BlazorSeverSignalRApp.Pages.FetchData",
-        "AssemblyName": "BlazorSeverSignalRApp",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "FetchData"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "BlazorSeverSignalRApp.Pages.FetchData"
-        }
-      },
-      {
-        "HashCode": 1626240659,
-        "Kind": "Components.Component",
-        "Name": "BlazorSeverSignalRApp.Pages.FetchData",
-        "AssemblyName": "BlazorSeverSignalRApp",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "BlazorSeverSignalRApp.Pages.FetchData"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "BlazorSeverSignalRApp.Pages.FetchData",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch"
         }
       },
@@ -177,6 +111,39 @@
         }
       },
       {
+        "HashCode": -2079765528,
+        "Kind": "Components.Component",
+        "Name": "BlazorSeverSignalRApp.Pages.Quiz",
+        "AssemblyName": "BlazorSeverSignalRApp",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "Quiz"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "BlazorSeverSignalRApp.Pages.Quiz"
+        }
+      },
+      {
+        "HashCode": 1130292591,
+        "Kind": "Components.Component",
+        "Name": "BlazorSeverSignalRApp.Pages.Quiz",
+        "AssemblyName": "BlazorSeverSignalRApp",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "BlazorSeverSignalRApp.Pages.Quiz"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "BlazorSeverSignalRApp.Pages.Quiz",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
         "HashCode": 386210249,
         "Kind": "Components.Component",
         "Name": "BlazorSeverSignalRApp.Pages.Config",
@@ -206,6 +173,72 @@
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
           "Common.TypeName": "BlazorSeverSignalRApp.Pages.Config",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
+        "HashCode": 450995235,
+        "Kind": "Components.Component",
+        "Name": "BlazorSeverSignalRApp.Pages.FetchData",
+        "AssemblyName": "BlazorSeverSignalRApp",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "FetchData"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "BlazorSeverSignalRApp.Pages.FetchData"
+        }
+      },
+      {
+        "HashCode": 1626240659,
+        "Kind": "Components.Component",
+        "Name": "BlazorSeverSignalRApp.Pages.FetchData",
+        "AssemblyName": "BlazorSeverSignalRApp",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "BlazorSeverSignalRApp.Pages.FetchData"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "BlazorSeverSignalRApp.Pages.FetchData",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
+        "HashCode": -759331872,
+        "Kind": "Components.Component",
+        "Name": "BlazorSeverSignalRApp.Pages.Tabremoveggg",
+        "AssemblyName": "BlazorSeverSignalRApp",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "Tabremoveggg"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "BlazorSeverSignalRApp.Pages.Tabremoveggg"
+        }
+      },
+      {
+        "HashCode": 737850874,
+        "Kind": "Components.Component",
+        "Name": "BlazorSeverSignalRApp.Pages.Tabremoveggg",
+        "AssemblyName": "BlazorSeverSignalRApp",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "BlazorSeverSignalRApp.Pages.Tabremoveggg"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "BlazorSeverSignalRApp.Pages.Tabremoveggg",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch"
         }
       },
@@ -17999,6 +18032,11 @@
       "FileKind": "component"
     },
     {
+      "FilePath": "c:\\Users\\dickl\\Documents\\vscode\\blazor\\BlazorSeverSignalRApp\\Pages\\Tabremoveggg.razor",
+      "TargetPath": "Pages\\Tabremoveggg.razor",
+      "FileKind": "component"
+    },
+    {
       "FilePath": "c:\\Users\\dickl\\Documents\\vscode\\blazor\\BlazorSeverSignalRApp\\Pages\\Config.razor",
       "TargetPath": "Pages\\Config.razor",
       "FileKind": "component"
@@ -18007,11 +18045,6 @@
       "FilePath": "c:\\Users\\dickl\\Documents\\vscode\\blazor\\BlazorSeverSignalRApp\\_Imports.razor",
       "TargetPath": "_Imports.razor",
       "FileKind": "componentImport"
-    },
-    {
-      "FilePath": "c:\\Users\\dickl\\Documents\\vscode\\blazor\\BlazorSeverSignalRApp\\Pages\\tabremove.razor",
-      "TargetPath": "Pages\\tabremove.razor",
-      "FileKind": "component"
     },
     {
       "FilePath": "c:\\Users\\dickl\\Documents\\vscode\\blazor\\BlazorSeverSignalRApp\\App.razor",
