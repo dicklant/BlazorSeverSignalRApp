@@ -7,9 +7,24 @@
     <NuGetPackageRoot Condition=" '$(NuGetPackageRoot)' == '' ">$(UserProfile)\.nuget\packages\</NuGetPackageRoot>
     <NuGetPackageFolders Condition=" '$(NuGetPackageFolders)' == '' ">C:\Users\dickl\.nuget\packages\</NuGetPackageFolders>
     <NuGetProjectStyle Condition=" '$(NuGetProjectStyle)' == '' ">PackageReference</NuGetProjectStyle>
-    <NuGetToolVersion Condition=" '$(NuGetToolVersion)' == '' ">6.3.0</NuGetToolVersion>
+    <NuGetToolVersion Condition=" '$(NuGetToolVersion)' == '' ">6.2.1</NuGetToolVersion>
   </PropertyGroup>
   <ItemGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
     <SourceRoot Include="C:\Users\dickl\.nuget\packages\" />
   </ItemGroup>
+  <ItemGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <Content Include="$(NuGetPackageRoot)blazorade.core\3.0.0\contentFiles\any\net6.0\Blazorade-Icon-128.png" Condition="Exists('$(NuGetPackageRoot)blazorade.core\3.0.0\contentFiles\any\net6.0\Blazorade-Icon-128.png')">
+      <NuGetPackageId>Blazorade.Core</NuGetPackageId>
+      <NuGetPackageVersion>3.0.0</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Pack>false</Pack>
+      <Private>False</Private>
+      <Link>Blazorade-Icon-128.png</Link>
+    </Content>
+  </ItemGroup>
+  <ImportGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <Import Project="$(NuGetPackageRoot)blazorade.core\3.0.0\buildTransitive\Blazorade.Core.props" Condition="Exists('$(NuGetPackageRoot)blazorade.core\3.0.0\buildTransitive\Blazorade.Core.props')" />
+    <Import Project="$(NuGetPackageRoot)blazorade.msal\1.1.0\buildTransitive\Blazorade.Msal.props" Condition="Exists('$(NuGetPackageRoot)blazorade.msal\1.1.0\buildTransitive\Blazorade.Msal.props')" />
+    <Import Project="$(NuGetPackageRoot)blazorade.teams\1.0.0-rc-06\buildTransitive\Blazorade.Teams.props" Condition="Exists('$(NuGetPackageRoot)blazorade.teams\1.0.0-rc-06\buildTransitive\Blazorade.Teams.props')" />
+  </ImportGroup>
 </Project>

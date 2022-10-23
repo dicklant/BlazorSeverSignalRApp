@@ -1,0 +1,45 @@
+@page "/quiz"
+
+@using BlazorSeverSignalRApp.Data;
+
+<PageTitle>Quiz</PageTitle>
+
+<h1>Quiz: @titreQuiz</h1>
+
+<h2>Questions : @questionQuiz</h2>
+
+<h3>Réponses</h3>
+
+@if (@typeQuiz == TypeQuiz.QCM)
+{
+    
+}
+
+
+<button @onclick="InitQuiz">Init</button>
+
+@code {
+
+    protected QuizData? quiz { get; set;}
+
+    protected string? titreQuiz { get; set;}
+    protected string? questionQuiz {get; set;}
+
+    protected TypeQuiz typeQuiz;
+
+
+    protected void InitQuiz() {
+        quiz = new QuizData();
+
+        quiz.titreQuiz = "Eval Quiz";
+        quiz.questionQuiz = "Qui a gagné la coupe du monde foot en 2002 ?";
+        quiz.typeQuiz = TypeQuiz.QCU;
+
+
+
+        titreQuiz = quiz.titreQuiz;
+        questionQuiz = quiz.titreQuiz;
+        typeQuiz = quiz.typeQuiz;
+    }
+}
+

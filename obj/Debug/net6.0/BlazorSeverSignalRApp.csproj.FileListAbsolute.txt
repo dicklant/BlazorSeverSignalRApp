@@ -36,3 +36,12 @@ C:\Users\dickl\Documents\vscode\blazor\BlazorSeverSignalRApp\obj\Debug\net6.0\re
 C:\Users\dickl\Documents\vscode\blazor\BlazorSeverSignalRApp\obj\Debug\net6.0\BlazorSeverSignalRApp.pdb
 C:\Users\dickl\Documents\vscode\blazor\BlazorSeverSignalRApp\obj\Debug\net6.0\BlazorSeverSignalRApp.genruntimeconfig.cache
 C:\Users\dickl\Documents\vscode\blazor\BlazorSeverSignalRApp\obj\Debug\net6.0\ref\BlazorSeverSignalRApp.dll
+C:\Users\dickl\Documents\vscode\blazor\BlazorSeverSignalRApp\bin\Debug\net6.0\Blazorade.Core.dll
+C:\Users\dickl\Documents\vscode\blazor\BlazorSeverSignalRApp\bin\Debug\net6.0\Blazorade.Msal.dll
+C:\Users\dickl\Documents\vscode\blazor\BlazorSeverSignalRApp\bin\Debug\net6.0\Blazorade.Teams.dll
+C:\Users\dickl\Documents\vscode\blazor\BlazorSeverSignalRApp\bin\Debug\net6.0\Microsoft.AspNetCore.Authorization.dll
+C:\Users\dickl\Documents\vscode\blazor\BlazorSeverSignalRApp\bin\Debug\net6.0\Microsoft.AspNetCore.Components.dll
+C:\Users\dickl\Documents\vscode\blazor\BlazorSeverSignalRApp\bin\Debug\net6.0\Microsoft.AspNetCore.Components.Forms.dll
+C:\Users\dickl\Documents\vscode\blazor\BlazorSeverSignalRApp\bin\Debug\net6.0\Microsoft.AspNetCore.Components.Web.dll
+C:\Users\dickl\Documents\vscode\blazor\BlazorSeverSignalRApp\bin\Debug\net6.0\Microsoft.AspNetCore.Metadata.dll
+C:\Users\dickl\Documents\vscode\blazor\BlazorSeverSignalRApp\bin\Debug\net6.0\Microsoft.JSInterop.dll

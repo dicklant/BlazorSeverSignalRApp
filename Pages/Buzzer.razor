@@ -9,7 +9,13 @@
 <PageTitle>Buzzer</PageTitle>
 
 <h1>Activité Buzzer</h1>
-<button class="btn btn-primary" disabled=@BuzzClosed @onclick="OnBuzzerClick">Buzz</button>
+<div class="form-group">
+    <label>
+        Votre pseudo:
+        <input @bind="userName" />
+    </label>
+</div>
+<button class="btn btn-primary" disabled=@BuzzClosed @onclick="OnBuzzerClick" style="height:200px;width:200px">Buzz</button>
 <h3>@buzzerStatut</h3>
 
 <div>
@@ -22,6 +28,8 @@
     protected bool BuzzClosed = true;
 
     protected string buzzerStatut = "";
+
+    protected string? userName;
 
     private HubConnection? hubConnection;
 
@@ -47,7 +55,7 @@
         {
             buzzerState.IsBuzzerOn = false;
             if (buzzerState.userID == userId) buzzerStatut = "Bravo, gagné !";
-            else buzzerStatut = "Perdu...";
+            else buzzerStatut = "Perdu, c'est "+buzzerState.userName+" qui a la main...";
             BuzzClosed = true;
             InvokeAsync(StateHasChanged);
         });
@@ -61,6 +69,7 @@
         {
             buzzerState.IsBuzzerOn = false;
             buzzerState.userID = userId;
+            buzzerState.userName = userName;
 
             if (hubConnection is not null)
             {
