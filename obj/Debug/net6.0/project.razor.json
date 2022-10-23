@@ -12,39 +12,6 @@
   "ProjectWorkspaceState": {
     "TagHelpers": [
       {
-        "HashCode": 694633573,
-        "Kind": "Components.Component",
-        "Name": "BlazorSeverSignalRApp.Pages.Buzzer",
-        "AssemblyName": "BlazorSeverSignalRApp",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "Buzzer"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "BlazorSeverSignalRApp.Pages.Buzzer"
-        }
-      },
-      {
-        "HashCode": -905064535,
-        "Kind": "Components.Component",
-        "Name": "BlazorSeverSignalRApp.Pages.Buzzer",
-        "AssemblyName": "BlazorSeverSignalRApp",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "BlazorSeverSignalRApp.Pages.Buzzer"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "BlazorSeverSignalRApp.Pages.Buzzer",
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
-        }
-      },
-      {
         "HashCode": -1125584604,
         "Kind": "Components.Component",
         "Name": "BlazorSeverSignalRApp.Pages.Config",
@@ -111,35 +78,35 @@
         }
       },
       {
-        "HashCode": -690834130,
+        "HashCode": 1714277377,
         "Kind": "Components.Component",
-        "Name": "BlazorSeverSignalRApp.Pages.FetchData",
+        "Name": "BlazorSeverSignalRApp.Pages.Quiz",
         "AssemblyName": "BlazorSeverSignalRApp",
         "CaseSensitive": true,
         "TagMatchingRules": [
           {
-            "TagName": "FetchData"
+            "TagName": "Quiz"
           }
         ],
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "BlazorSeverSignalRApp.Pages.FetchData"
+          "Common.TypeName": "BlazorSeverSignalRApp.Pages.Quiz"
         }
       },
       {
-        "HashCode": -1250875994,
+        "HashCode": -1084192593,
         "Kind": "Components.Component",
-        "Name": "BlazorSeverSignalRApp.Pages.FetchData",
+        "Name": "BlazorSeverSignalRApp.Pages.Quiz",
         "AssemblyName": "BlazorSeverSignalRApp",
         "CaseSensitive": true,
         "TagMatchingRules": [
           {
-            "TagName": "BlazorSeverSignalRApp.Pages.FetchData"
+            "TagName": "BlazorSeverSignalRApp.Pages.Quiz"
           }
         ],
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "BlazorSeverSignalRApp.Pages.FetchData",
+          "Common.TypeName": "BlazorSeverSignalRApp.Pages.Quiz",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch"
         }
       },
@@ -177,35 +144,68 @@
         }
       },
       {
-        "HashCode": 1714277377,
+        "HashCode": 694633573,
         "Kind": "Components.Component",
-        "Name": "BlazorSeverSignalRApp.Pages.Quiz",
+        "Name": "BlazorSeverSignalRApp.Pages.Buzzer",
         "AssemblyName": "BlazorSeverSignalRApp",
         "CaseSensitive": true,
         "TagMatchingRules": [
           {
-            "TagName": "Quiz"
+            "TagName": "Buzzer"
           }
         ],
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "BlazorSeverSignalRApp.Pages.Quiz"
+          "Common.TypeName": "BlazorSeverSignalRApp.Pages.Buzzer"
         }
       },
       {
-        "HashCode": -1084192593,
+        "HashCode": -905064535,
         "Kind": "Components.Component",
-        "Name": "BlazorSeverSignalRApp.Pages.Quiz",
+        "Name": "BlazorSeverSignalRApp.Pages.Buzzer",
         "AssemblyName": "BlazorSeverSignalRApp",
         "CaseSensitive": true,
         "TagMatchingRules": [
           {
-            "TagName": "BlazorSeverSignalRApp.Pages.Quiz"
+            "TagName": "BlazorSeverSignalRApp.Pages.Buzzer"
           }
         ],
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "BlazorSeverSignalRApp.Pages.Quiz",
+          "Common.TypeName": "BlazorSeverSignalRApp.Pages.Buzzer",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
+        "HashCode": -690834130,
+        "Kind": "Components.Component",
+        "Name": "BlazorSeverSignalRApp.Pages.FetchData",
+        "AssemblyName": "BlazorSeverSignalRApp",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "FetchData"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "BlazorSeverSignalRApp.Pages.FetchData"
+        }
+      },
+      {
+        "HashCode": -1250875994,
+        "Kind": "Components.Component",
+        "Name": "BlazorSeverSignalRApp.Pages.FetchData",
+        "AssemblyName": "BlazorSeverSignalRApp",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "BlazorSeverSignalRApp.Pages.FetchData"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "BlazorSeverSignalRApp.Pages.FetchData",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch"
         }
       },
@@ -276,55 +276,35 @@
         }
       },
       {
-        "HashCode": -1744495621,
+        "HashCode": 1506588853,
         "Kind": "Components.Component",
-        "Name": "BlazorSeverSignalRApp.Shared.SurveyPrompt",
+        "Name": "BlazorSeverSignalRApp.Shared.NavMenu",
         "AssemblyName": "BlazorSeverSignalRApp",
         "CaseSensitive": true,
         "TagMatchingRules": [
           {
-            "TagName": "SurveyPrompt"
-          }
-        ],
-        "BoundAttributes": [
-          {
-            "Kind": "Components.Component",
-            "Name": "Title",
-            "TypeName": "System.String",
-            "Metadata": {
-              "Common.PropertyName": "Title"
-            }
+            "TagName": "NavMenu"
           }
         ],
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "BlazorSeverSignalRApp.Shared.SurveyPrompt"
+          "Common.TypeName": "BlazorSeverSignalRApp.Shared.NavMenu"
         }
       },
       {
-        "HashCode": -84310887,
+        "HashCode": -99930583,
         "Kind": "Components.Component",
-        "Name": "BlazorSeverSignalRApp.Shared.SurveyPrompt",
+        "Name": "BlazorSeverSignalRApp.Shared.NavMenu",
         "AssemblyName": "BlazorSeverSignalRApp",
         "CaseSensitive": true,
         "TagMatchingRules": [
           {
-            "TagName": "BlazorSeverSignalRApp.Shared.SurveyPrompt"
-          }
-        ],
-        "BoundAttributes": [
-          {
-            "Kind": "Components.Component",
-            "Name": "Title",
-            "TypeName": "System.String",
-            "Metadata": {
-              "Common.PropertyName": "Title"
-            }
+            "TagName": "BlazorSeverSignalRApp.Shared.NavMenu"
           }
         ],
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "BlazorSeverSignalRApp.Shared.SurveyPrompt",
+          "Common.TypeName": "BlazorSeverSignalRApp.Shared.NavMenu",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch"
         }
       },
@@ -425,35 +405,55 @@
         }
       },
       {
-        "HashCode": 1506588853,
+        "HashCode": -1744495621,
         "Kind": "Components.Component",
-        "Name": "BlazorSeverSignalRApp.Shared.NavMenu",
+        "Name": "BlazorSeverSignalRApp.Shared.SurveyPrompt",
         "AssemblyName": "BlazorSeverSignalRApp",
         "CaseSensitive": true,
         "TagMatchingRules": [
           {
-            "TagName": "NavMenu"
+            "TagName": "SurveyPrompt"
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "Components.Component",
+            "Name": "Title",
+            "TypeName": "System.String",
+            "Metadata": {
+              "Common.PropertyName": "Title"
+            }
           }
         ],
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "BlazorSeverSignalRApp.Shared.NavMenu"
+          "Common.TypeName": "BlazorSeverSignalRApp.Shared.SurveyPrompt"
         }
       },
       {
-        "HashCode": -99930583,
+        "HashCode": -84310887,
         "Kind": "Components.Component",
-        "Name": "BlazorSeverSignalRApp.Shared.NavMenu",
+        "Name": "BlazorSeverSignalRApp.Shared.SurveyPrompt",
         "AssemblyName": "BlazorSeverSignalRApp",
         "CaseSensitive": true,
         "TagMatchingRules": [
           {
-            "TagName": "BlazorSeverSignalRApp.Shared.NavMenu"
+            "TagName": "BlazorSeverSignalRApp.Shared.SurveyPrompt"
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "Components.Component",
+            "Name": "Title",
+            "TypeName": "System.String",
+            "Metadata": {
+              "Common.PropertyName": "Title"
+            }
           }
         ],
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "BlazorSeverSignalRApp.Shared.NavMenu",
+          "Common.TypeName": "BlazorSeverSignalRApp.Shared.SurveyPrompt",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch"
         }
       },
