@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "/goQn2HAw7QDycTGKQAwVsU6bfReSfFqlsII+9WIEVBXe/8ovPEN7CS/dFdiJbusz5XM1YrtS8w9QB4X1ag+mQ==",
+  "dgSpecHash": "k4xldAuKxHw/0KhCQRJHtP6D4jPkbxC2AJYcOFWab7VZyqxLpxofl9C4EA0hIljzDKS+o1sYHUfqUZkonJEbQg==",
   "success": true,
   "projectFilePath": "C:\\Users\\dickl\\Documents\\vscode\\blazor\\BlazorSeverSignalRApp\\BlazorSeverSignalRApp.csproj",
   "expectedPackageFiles": [

@@ -8,69 +8,69 @@ build_property.PlatformNeutralAssembly =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = BlazorSeverSignalRApp
 build_property.RootNamespace = BlazorSeverSignalRApp
-build_property.ProjectDir = c:\Users\dickl\Documents\vscode\blazor\BlazorSeverSignalRApp\
+build_property.ProjectDir = C:\Users\dickl\Documents\vscode\blazor\BlazorSeverSignalRApp\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = c:\Users\dickl\Documents\vscode\blazor\BlazorSeverSignalRApp
+build_property.MSBuildProjectDirectory = C:\Users\dickl\Documents\vscode\blazor\BlazorSeverSignalRApp
 build_property._RazorSourceGeneratorDebug = 
 
-[c:/Users/dickl/Documents/vscode/blazor/BlazorSeverSignalRApp/App.razor]
+[C:/Users/dickl/Documents/vscode/blazor/BlazorSeverSignalRApp/App.razor]
 build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/dickl/Documents/vscode/blazor/BlazorSeverSignalRApp/Pages/Buzzer.razor]
+[C:/Users/dickl/Documents/vscode/blazor/BlazorSeverSignalRApp/Pages/Buzzer.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQnV6emVyLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/dickl/Documents/vscode/blazor/BlazorSeverSignalRApp/Pages/Config.razor]
+[C:/Users/dickl/Documents/vscode/blazor/BlazorSeverSignalRApp/Pages/Config.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ29uZmlnLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/dickl/Documents/vscode/blazor/BlazorSeverSignalRApp/Pages/Counter.razor]
+[C:/Users/dickl/Documents/vscode/blazor/BlazorSeverSignalRApp/Pages/Counter.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ291bnRlci5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/dickl/Documents/vscode/blazor/BlazorSeverSignalRApp/Pages/FetchData.razor]
+[C:/Users/dickl/Documents/vscode/blazor/BlazorSeverSignalRApp/Pages/FetchData.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRmV0Y2hEYXRhLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/dickl/Documents/vscode/blazor/BlazorSeverSignalRApp/Pages/Index.razor]
+[C:/Users/dickl/Documents/vscode/blazor/BlazorSeverSignalRApp/Pages/Index.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXgucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/dickl/Documents/vscode/blazor/BlazorSeverSignalRApp/Pages/Quiz.razor]
+[C:/Users/dickl/Documents/vscode/blazor/BlazorSeverSignalRApp/Pages/Quiz.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUXVpei5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/dickl/Documents/vscode/blazor/BlazorSeverSignalRApp/Pages/Tabremove.razor]
+[C:/Users/dickl/Documents/vscode/blazor/BlazorSeverSignalRApp/Pages/Tabremove.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVGFicmVtb3ZlLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/dickl/Documents/vscode/blazor/BlazorSeverSignalRApp/Shared/SurveyPrompt.razor]
+[C:/Users/dickl/Documents/vscode/blazor/BlazorSeverSignalRApp/Shared/SurveyPrompt.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXFN1cnZleVByb21wdC5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/dickl/Documents/vscode/blazor/BlazorSeverSignalRApp/_Imports.razor]
+[C:/Users/dickl/Documents/vscode/blazor/BlazorSeverSignalRApp/_Imports.razor]
 build_metadata.AdditionalFiles.TargetPath = X0ltcG9ydHMucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/dickl/Documents/vscode/blazor/BlazorSeverSignalRApp/Shared/MainLayout.razor]
+[C:/Users/dickl/Documents/vscode/blazor/BlazorSeverSignalRApp/Shared/MainLayout.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE1haW5MYXlvdXQucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = b-ve1uudtico
 
-[c:/Users/dickl/Documents/vscode/blazor/BlazorSeverSignalRApp/Shared/NavMenu.razor]
+[C:/Users/dickl/Documents/vscode/blazor/BlazorSeverSignalRApp/Shared/NavMenu.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE5hdk1lbnUucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = b-3p9m5jmzou
 
-[c:/Users/dickl/Documents/vscode/blazor/BlazorSeverSignalRApp/Pages/Error.cshtml]
+[C:/Users/dickl/Documents/vscode/blazor/BlazorSeverSignalRApp/Pages/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXJyb3IuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/dickl/Documents/vscode/blazor/BlazorSeverSignalRApp/Pages/_Host.cshtml]
+[C:/Users/dickl/Documents/vscode/blazor/BlazorSeverSignalRApp/Pages/_Host.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX0hvc3QuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/dickl/Documents/vscode/blazor/BlazorSeverSignalRApp/Pages/_Layout.cshtml]
+[C:/Users/dickl/Documents/vscode/blazor/BlazorSeverSignalRApp/Pages/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX0xheW91dC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
